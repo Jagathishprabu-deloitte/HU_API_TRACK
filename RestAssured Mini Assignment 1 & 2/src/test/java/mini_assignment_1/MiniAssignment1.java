@@ -1,4 +1,5 @@
-import io.restassured.path.json.JsonPath;
+package mini_assignment_1;
+
 import io.restassured.response.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -9,7 +10,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
-public class RestAssured {
+public class MiniAssignment1 {
 
     @Test
     public void get_test_call(){
